@@ -1,0 +1,8 @@
+This is a demo file created by the Gemini File System Assistant!
+
+It shows how the system can:
+- Read files
+- Write files
+- List directories
+
+All operations are secure and limited to the safe directory.
