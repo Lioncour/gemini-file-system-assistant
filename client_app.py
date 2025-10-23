@@ -28,10 +28,9 @@ class GeminiFileSystemClient:
         # Configure Gemini API
         genai.configure(api_key=api_key)
         
-        # Initialize the Gemini model with tools
+        # Initialize the Gemini model (without tools for now due to schema issues)
         self.model = genai.GenerativeModel(
-            model_name="gemini-1.5-pro-latest",
-            tools=local_tools_schema
+            model_name="gemini-1.5-pro-latest"
         )
         
         # Start a persistent chat session
